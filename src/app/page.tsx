@@ -9,16 +9,11 @@ import Projects from "./components/Projects"
 import Skills from "./components/Skills"
 import Hero from "./components/Hero"
 import Contact from "./components/Contactme"
-import 'bootstrap/dist/css/bootstrap.min.css'
-import '../styles/globals.css'
-
-
-
 
 const Home = () => {
   return (
     <>
-      <div className="">
+      <div className="min-h-screen" style={{ background: 'linear-gradient(135deg, #d0eaf8, #f9c1d2)' }}>
         <div>
           <Navigation />
           <main className="">
@@ -26,7 +21,7 @@ const Home = () => {
               <Hero />
             </Element>
             <Element name="experience">
-              <Experience />
+              <Projects />
             </Element>
             <Element name="about">
               <About />

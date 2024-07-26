@@ -11,7 +11,7 @@ import Hero from "./Hero"
 const Navigation = () => {
 	return (
 		<>
-			<header className="fixed w-full bg-white shadow-md">
+			<header className="fixed w-full bg-gray-200 shadow-md z-50">
 				<nav className="flex items-center justify-between p-6 text-lg">
 					<div>
 						<Link to="hero" className="mx-6 cursor-pointer" smooth={true} duration={500}>
