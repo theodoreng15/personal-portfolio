@@ -12,7 +12,7 @@ const Hero = () => {
 				</p>
 			</div>
 		</div>
-	);
+	); s
 };
 
 export default Hero;
