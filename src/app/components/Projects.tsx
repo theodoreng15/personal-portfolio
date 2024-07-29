@@ -29,7 +29,7 @@ const ProjectCard = ({ imgSrc, alt, title, description, techStack, github }) => 
 		</div>
 		<div className="flex justify-center mt-auto mb-3">
 			<a href={github} target="_blank" className="inline-flex items-center px-4 py-2 bg-gray-800 text-white font-semibold rounded-md shadow-md hover:bg-gray-700 transition-colors">
-				<img src={GithubSymbol.src} className="w-5 h-5 mr-2" />
+				<Image src={GithubSymbol.src} alt="Github" width={20} height={20} className="w-5 h-5 mr-2.5" />
 				View on GitHub
 			</a>
 		</div>

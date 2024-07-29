@@ -8,11 +8,11 @@ const Hero = () => {
 					Hi, my name is Theodore Ng.
 				</h2>
 				<p className="text-xl md:text-2xl font-semibold">
-					And I'm a Junior studying Computer Engineering at the University of Illinois at Urbana-Champaign.
+					And I&apos;m a Junior studying Computer Engineering at the University of Illinois at Urbana-Champaign.
 				</p>
 			</div>
 		</div>
-	); s
+	);
 };
 
 export default Hero;
