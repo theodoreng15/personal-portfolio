@@ -9,11 +9,13 @@ import Projects from "./components/Projects"
 import Skills from "./components/Skills"
 import Hero from "./components/Hero"
 import Contact from "./components/Contactme"
+import { MouseSpotlight } from './components/MouseSpotlight';
 
+{/*style={{ background: 'linear-gradient(135deg, #d0eaf8, #f9c1d2)' }} */ }
 const Home = () => {
   return (
     <>
-      <div className="min-h-screen" style={{ background: 'linear-gradient(135deg, #d0eaf8, #f9c1d2)' }}>
+      <div className="min-h-screen bg-slate-900 text-black" style={{ background: 'linear-gradient(135deg, #d0eaf8, #f9c1d2)' }}>
         <div>
           <Navigation />
           <main className="">
