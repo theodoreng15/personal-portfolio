@@ -15,28 +15,30 @@ import { MouseSpotlight } from './components/MouseSpotlight';
 const Home = () => {
   return (
     <>
-      <div className="min-h-screen bg-slate-900 text-black" style={{ background: 'linear-gradient(135deg, #d0eaf8, #f9c1d2)' }}>
-        <div>
-          <Navigation />
-          <main className="">
-            <Element name="hero">
-              <Hero />
-            </Element>
-            <Element name="experience">
-              <Projects />
-            </Element>
-            <Element name="about">
-              <About />
-            </Element>
-            <Element name="skills">
-              <Skills />
-            </Element>
-            <Element name="contact">
-              <Contact />
-            </Element>
-          </main>
+      <MouseSpotlight>
+        <div className="min-h-screen bg-slate-900 text-black" style={{ background: 'linear-gradient(135deg, #d0eaf8, #f9c1d2)' }}>
+          <div>
+            <Navigation />
+            <div className="">
+              <Element name="hero">
+                <Hero />
+              </Element>
+              <Element name="experience">
+                <Projects />
+              </Element>
+              <Element name="about">
+                <About />
+              </Element>
+              <Element name="skills">
+                <Skills />
+              </Element>
+              <Element name="contact">
+                <Contact />
+              </Element>
+            </div>
+          </div>
         </div>
-      </div>
+      </MouseSpotlight>
 
     </>
   );
